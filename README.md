@@ -11,6 +11,6 @@ In einen neuen Command Prompt mit : "python server.py" (mit Pfad wenn notig ) de
 
 Client:
 In den client.py muss mann den Pfad zu die BPMN Dateien enpassen.
-Von prozess1 = r"C:\Users\alexm\TestFlask\P1 (en).bpmn" zu z.B. prozess1 = r"D:\Dokuments\P1 (en).bpmn", dass selbe muss man auch beim "prozess2" machen.
+Von prozess1 = r"\TestFlask\P1 (en).bpmn" zu z.B. prozess1 = r"D:\Dokuments\P1 (en).bpmn", dass selbe muss man auch beim "prozess2" machen.
 Danach parallel in einen anderen Command Promp der Client mit: "python client.py" starten.
 In die Console von der Server muss normaler Weise ein Eintrag reinkommen und in die Console der Clients sollte die Similaritat dargestellt werden.
