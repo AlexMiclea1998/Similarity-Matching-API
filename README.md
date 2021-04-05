@@ -1,8 +1,11 @@
 # alexandru.miclea
 
 C:\Users\alexm>curl localhost:5000/similarity/.\input\P1__en_.bpmn/.\input\P2__en_.bpmn
+
 {
+
     "Similarity ": 95.75
+
 }
 
 
