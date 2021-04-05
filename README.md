@@ -1,16 +1,21 @@
 # alexandru.miclea
-Install Python3.9.1 : https://www.python.org/ftp/python/3.9.1/python-3.9.1-amd64.exe
-Beim installieren auf "add to PATH" klicken.
 
-Python Packages Installieren:
-In einen Command Prompt : pip install -r requirements.txt
-(requirements.txt mit Pfad wenn notig).
+C:\Users\alexm>curl localhost:5000/similarity/.\input\P1__en_.bpmn/.\input\P2__en_.bpmn
+{
+    "Similarity ": 95.75
+}
 
-Server:
-In einen neuen Command Prompt mit : "python server.py" (mit Pfad wenn notig ) den Flask Server starten.
 
-Client:
-In den client.py muss mann den Pfad zu die BPMN Dateien enpassen.
-Von prozess1 = r"\TestFlask\P1 (en).bpmn" zu z.B. prozess1 = r"D:\Dokuments\P1 (en).bpmn", dass selbe muss man auch beim "prozess2" machen.
-Danach parallel in einen anderen Command Promp der Client mit: "python client.py" starten.
-In die Console von der Server muss normaler Weise ein Eintrag reinkommen und in die Console der Clients sollte die Similaritat dargestellt werden.
+
+Server Side:
+C:\Users\alexm\AppData\Local\Programs\Python\Python39\lib\site-packages\fuzzywuzzy\fuzz.py:11: UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+  warnings.warn('Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning')
+ * Debugger is active!
+ * Debugger PIN: 109-449-654
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+
+Process 1 :   Get Cup Poor coffee End Event Start Event //Activities from BPMN-File Process 1
+
+Process 2 :   End Event Get Cup Poor coffee Put lid on Start Event  //Activities from BPMN-File Process 2
+
+127.0.0.1 - - [05/Apr/2021 14:31:24] "GET /similarity/.\input\P1__en_.bpmn/.\input\P2__en_.bpmn HTTP/1.1" 200 -
